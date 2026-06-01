@@ -30,9 +30,9 @@ export const createProduct = async (
       data: product,
     });
   } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: "Failed to create product",
-    });
+    // res.status(500).json({
+    //   success: false,
+    //   message: "Failed to create product",
+    // });
   }
 };
